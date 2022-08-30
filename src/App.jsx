@@ -1,13 +1,9 @@
 import React from "react";
-import Component from "./components/Component/Component.jsx";
+import HeroSection from "./components/HeroSection/HeroSection.jsx";
 import "./App.css";
 
 const App = () => {
-  return (
-    <main id="app-container">
-      <Component />
-    </main>
-  );
+  return <HeroSection />;
 };
 
 export default App;
